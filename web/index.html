@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UFC SIM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-nav="home"><span class="brand-mark">UFC</span><span class="brand-sim">SIM</span></a>
+    <nav>
+      <a href="#" data-nav="quick">Luta rápida</a>
+      <a href="#" data-nav="career">Carreira</a>
+      <a href="#" data-nav="fighters">Lutadores</a>
+      <a href="#" data-nav="lab">Validação</a>
+    </nav>
+    <a href="#" class="live-link hidden" id="live-link" data-nav="fight">● Luta em andamento</a>
+  </header>
+
+  <main id="app">
+    <!-- HOME -->
+    <section class="view" id="view-home">
+      <div class="hero">
+        <div class="hero-eyebrow">Simulador de MMA · modo treinador</div>
+        <h1>Você está no córner.</h1>
+        <p>A luta corre em tempo real. Seu lutador age pelo plano que você passa e pela própria natureza.
+          Leia a narração, ajuste a estratégia e grite as instruções certas na hora certa.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-lg" data-nav="quick">Luta rápida</button>
+          <button class="btn btn-lg" data-nav="career">Modo carreira</button>
+        </div>
+      </div>
+      <div class="cards-3">
+        <div class="info-card"><h3>Tempo real</h3><p>O relógio não para. Ajuste a velocidade (1× a 16×) ou pause quando quiser pensar.</p></div>
+        <div class="info-card"><h3>Instruções em camadas</h3><p>Do genérico ("pressione") ao técnico ("quando ele entrar, uppercut"). Quanto mais específico, maior o bônus.</p></div>
+        <div class="info-card"><h3>Leitura de luta</h3><p>Linhas <span class="hint-dot">◆ Leitura</span> revelam vícios do adversário. Puna o gatilho certo.</p></div>
+      </div>
+    </section>
+
+    <!-- LUTA RÁPIDA -->
+    <section class="view" id="view-quick">
+      <h2 class="page-title">Luta rápida</h2>
+      <div class="setup">
+        <div class="corner-pick red">
+          <div class="corner-label">Canto vermelho</div>
+          <div class="pick-list" id="pick-red"></div>
+        </div>
+        <div class="vs">VS</div>
+        <div class="corner-pick blue">
+          <div class="corner-label">Canto azul</div>
+          <div class="pick-list" id="pick-blue"></div>
+        </div>
+      </div>
+      <div class="setup-options">
+        <div class="opt-group">
+          <div class="opt-label">Rounds</div>
+          <div class="seg" id="opt-rounds">
+            <button data-v="3">3 rounds</button>
+            <button data-v="5" class="on">5 rounds</button>
+          </div>
+        </div>
+        <div class="opt-group">
+          <div class="opt-label">Você é</div>
+          <div class="seg" id="opt-coach">
+            <button data-v="0">Treinador do vermelho</button>
+            <button data-v="1" class="on">Treinador do azul</button>
+            <button data-v="none">Espectador</button>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-lg" id="btn-start-quick">Ir para o octógono</button>
+      </div>
+    </section>
+
+    <!-- LUTA -->
+    <section class="view" id="view-fight">
+      <div class="scoreboard">
+        <div class="sb-fighter red" id="sb-0"></div>
+        <div class="sb-center">
+          <div class="sb-status" id="sb-status">PRÉ-LUTA</div>
+          <div class="sb-round" id="sb-round">ROUND 1 / 5</div>
+          <div class="sb-clock" id="sb-clock">0:00</div>
+          <div class="sb-progress"><div id="sb-progress-bar"></div></div>
+          <div class="sb-position" id="sb-position"></div>
+        </div>
+        <div class="sb-fighter blue" id="sb-1"></div>
+      </div>
+
+      <div class="fight-grid">
+        <div class="panel feed-panel">
+          <div class="tabs" id="feed-tabs">
+            <button data-tab="feed" class="on">Narração</button>
+            <button data-tab="stats">Estatísticas</button>
+            <button data-tab="rounds">Por round</button>
+            <div class="controls">
+              <button class="ctrl" id="btn-pause" title="Pausar (Espaço)">❚❚</button>
+              <div class="speeds" id="speeds"></div>
+            </div>
+          </div>
+          <div class="banner hidden" id="banner"></div>
+          <div class="tab-body" id="tab-feed"><div class="feed" id="feed"></div>
+            <button class="jump hidden" id="jump">▼ novas jogadas</button></div>
+          <div class="tab-body hidden" id="tab-stats"></div>
+          <div class="tab-body hidden" id="tab-rounds"></div>
+        </div>
+
+        <div class="panel tactics-panel" id="tactics"></div>
+      </div>
+    </section>
+
+    <!-- LUTADORES -->
+    <section class="view" id="view-fighters">
+      <h2 class="page-title">Lutadores</h2>
+      <div class="roster-grid" id="roster-grid"></div>
+    </section>
+    <section class="view" id="view-profile"><div id="profile"></div></section>
+
+    <!-- CARREIRA -->
+    <section class="view" id="view-career"><div id="career"></div></section>
+
+    <!-- VALIDAÇÃO -->
+    <section class="view" id="view-lab">
+      <h2 class="page-title">Validação estatística</h2>
+      <p class="muted">Simula muitas lutas sem treinador humano e compara com as estatísticas oficiais.</p>
+      <div class="lab-form">
+        <select id="lab-red"></select><span class="vs-small">vs</span><select id="lab-blue"></select>
+        <select id="lab-n"><option>200</option><option selected>500</option><option>1000</option></select>
+        <select id="lab-rounds"><option value="3">3 rounds</option><option value="5" selected>5 rounds</option></select>
+        <button class="btn btn-primary" id="btn-lab">Simular</button>
+      </div>
+      <pre class="lab-out" id="lab-out"></pre>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="modal"><div class="modal-card" id="modal-card"></div></div>
+  <div class="toast hidden" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

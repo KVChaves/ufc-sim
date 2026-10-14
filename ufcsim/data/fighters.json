@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "updated": "2026-10-13",
+    "sources": [
+      "https://www.ufcespanol.com/athlete/ilia-topuria",
+      "https://us.ufcespanol.com/athlete/max-holloway",
+      "https://en.wikipedia.org/wiki/Ilia_Topuria",
+      "https://en.wikipedia.org/wiki/Max_Holloway"
+    ],
+    "notes": "ufc_stats = números oficiais do perfil UFC. attributes/style/habits = avaliações do jogo (0-100), calibradas a partir dos números oficiais e do histórico."
+  },
+  "fighters": [
+    {
+      "id": "topuria",
+      "name": "Ilia Topuria",
+      "short": "Topuria",
+      "nickname": "El Matador",
+      "nationality": "Geórgia / Espanha",
+      "hometown": "Halle, Alemanha",
+      "team": "Team Topuria",
+      "birthdate": "1997-01-21",
+      "height_cm": 170,
+      "reach_cm": 175,
+      "leg_reach_cm": 94,
+      "weight_lbs": 155,
+      "division": "Peso-leve",
+      "stance": "orthodox",
+      "base_style": "Boxe / Jiu-jitsu",
+      "record": {
+        "wins": 17, "losses": 1, "draws": 0,
+        "wins_by": {"ko": 7, "sub": 8, "dec": 2},
+        "losses_by": {"ko": 1, "sub": 0, "dec": 0}
+      },
+      "fight_history": [
+        {"result": "L", "opponent": "Justin Gaethje", "method": "TKO (interrupção do córner)", "event": "UFC Freedom 250", "date": "2026-06-14", "round": 4, "time": "5:00"},
+        {"result": "W", "opponent": "Charles Oliveira", "method": "KO (socos)", "event": "UFC 317", "date": "2025-06-28", "round": 1, "time": "2:27"},
+        {"result": "W", "opponent": "Max Holloway", "method": "KO (socos)", "event": "UFC 308", "date": "2024-10-26", "round": 3, "time": "1:34"},
+        {"result": "W", "opponent": "Alexander Volkanovski", "method": "KO (soco)", "event": "UFC 298", "date": "2024-02-17", "round": 2, "time": "3:32"},
+        {"result": "W", "opponent": "Josh Emmett", "method": "Decisão (unânime)", "event": "UFC on ABC: Emmett vs. Topuria", "date": "2023-06-24", "round": 5, "time": "5:00"},
+        {"result": "W", "opponent": "Bryce Mitchell", "method": "Finalização (katagatame)", "event": "UFC 282", "date": "2022-12-10", "round": 2, "time": "3:10"},
+        {"result": "W", "opponent": "Jai Herbert", "method": "KO (socos)", "event": "UFC Fight Night: Volkov vs. Aspinall", "date": "2022-03-19", "round": 2, "time": "1:07"},
+        {"result": "W", "opponent": "Ryan Hall", "method": "KO (socos)", "event": "UFC 264", "date": "2021-07-10", "round": 1, "time": "4:47"},
+        {"result": "W", "opponent": "Damon Jackson", "method": "KO (socos)", "event": "UFC on ESPN: Hermansson vs. Vettori", "date": "2020-12-05", "round": 1, "time": "2:38"},
+        {"result": "W", "opponent": "Youssef Zalal", "method": "Decisão (unânime)", "event": "UFC Fight Night: Moraes vs. Sandhagen", "date": "2020-10-11", "round": 3, "time": "5:00"},
+        {"result": "W", "opponent": "Steven Goncalves", "method": "KO (soco)", "event": "Brave CF 29", "date": "2019-11-15", "round": 1, "time": "3:42"},
+        {"result": "W", "opponent": "Luis Gomez", "method": "Finalização (chave de braço em triângulo)", "event": "Brave CF 26", "date": "2019-09-07", "round": 1, "time": "1:15"},
+        {"result": "W", "opponent": "Brian Bouland", "method": "Finalização técnica (anaconda)", "event": "Cage Warriors 94", "date": "2018-06-16", "round": 1, "time": "1:39"},
+        {"result": "W", "opponent": "Mika Hämäläinen", "method": "Finalização (guilhotina)", "event": "CAGE 43", "date": "2018-04-28", "round": 1, "time": "3:35"},
+        {"result": "W", "opponent": "Jhon Guarin", "method": "Finalização (guilhotina)", "event": "Mix Fight Events 28", "date": "2016-11-05", "round": 2, "time": "2:50"},
+        {"result": "W", "opponent": "Daniel Vasquez", "method": "Finalização (mata-leão)", "event": "Mix Fight Events 26", "date": "2016-05-07", "round": 1, "time": "1:50"},
+        {"result": "W", "opponent": "Kalil Martin El Chalibi", "method": "Finalização (mata-leão)", "event": "Climent Show MMA 4", "date": "2015-05-09", "round": 1, "time": "1:03"},
+        {"result": "W", "opponent": "Francisco Javier Asprilla", "method": "Finalização (triângulo)", "event": "Mix Fight Events 17", "date": "2015-04-04", "round": 1, "time": "3:30"}
+      ],
+      "ufc_stats": {
+        "slpm": 4.82, "str_acc": 0.50, "sapm": 3.97, "str_def": 0.62,
+        "td_landed": 5, "td_attempted": 21, "td_acc": 0.24, "td_def": 0.95,
+        "sub_avg": 0.86, "kd_avg": 1.73, "avg_fight_time": "10:26",
+        "sig_by_position": {"standing": 387, "clinch": 34, "ground": 81},
+        "sig_by_target": {"head": 343, "body": 106, "leg": 53}
+      },
+      "attributes": {
+        "boxing": 96, "kicking": 58, "clinch_striking": 74, "power": 95, "hand_speed": 90,
+        "accuracy": 89, "head_movement": 86, "footwork": 84, "volume": 60, "counter": 94,
+        "wrestling": 82, "takedown_def": 92, "clinch_control": 84, "top_control": 86,
+        "bottom_game": 82, "sub_offense": 90, "sub_defense": 88, "ground_strikes": 84,
+        "cardio": 82, "chin": 82, "body_toughness": 86, "leg_toughness": 82, "recovery": 80, "strength": 88,
+        "fight_iq": 92, "composure": 93, "aggression": 80, "heart": 90
+      },
+      "style": {
+        "preferred_range": 2,
+        "pressure": 0.75,
+        "counter_tendency": 0.70,
+        "stance_switching": 0.02,
+        "grapple_intent": 0.025,
+        "combo_length": 2.0,
+        "strike_mix": {"jab": 15, "cross": 16, "hook": 20, "uppercut": 8, "overhand": 10,
+                        "calf_kick": 4, "leg_kick": 5, "body_kick": 4, "head_kick": 1, "teep": 1, "knee": 2},
+        "target_mix": {"head": 68, "body": 21, "leg": 11},
+        "ground_top": "finalizar",
+        "favorite_subs": ["arm_triangle", "rnc", "guillotine"]
+      },
+      "habits": [
+        {"trigger": "entrada", "tell": "Topuria entra com a cabeça na linha central quando pressiona", "exploit": "uppercut", "bonus": 0.4},
+        {"trigger": "hook", "tell": "Topuria abre o gancho de esquerda e expõe o queixo à direita", "exploit": "cross", "bonus": 0.35}
+      ]
+    },
+    {
+      "id": "holloway",
+      "name": "Max Holloway",
+      "short": "Holloway",
+      "nickname": "Blessed",
+      "nationality": "Estados Unidos",
+      "hometown": "Waianae, Havaí",
+      "team": "Hawaii Elite MMA",
+      "birthdate": "1991-12-04",
+      "height_cm": 180,
+      "reach_cm": 175,
+      "leg_reach_cm": 107,
+      "weight_lbs": 155,
+      "division": "Peso-leve",
+      "stance": "orthodox",
+      "base_style": "Muay Thai / Boxe",
+      "record": {
+        "wins": 28, "losses": 9, "draws": 0,
+        "wins_by": {"ko": 13, "sub": 2, "dec": 13},
+        "losses_by": {"ko": 1, "sub": 1, "dec": 7}
+      },
+      "fight_history": [
+        {"result": "W", "opponent": "Conor McGregor", "method": "TKO (lesão no joelho)", "event": "UFC 329", "date": "2026-07-11", "round": 1, "time": "1:09"},
+        {"result": "L", "opponent": "Charles Oliveira", "method": "Decisão (unânime)", "event": "UFC 326", "date": "2026-03-07", "round": 5, "time": "5:00"},
+        {"result": "W", "opponent": "Dustin Poirier", "method": "Decisão (unânime)", "event": "UFC 318", "date": "2025-07-19", "round": 5, "time": "5:00"},
+        {"result": "L", "opponent": "Ilia Topuria", "method": "KO (socos)", "event": "UFC 308", "date": "2024-10-26", "round": 3, "time": "1:34"},
+        {"result": "W", "opponent": "Justin Gaethje", "method": "KO (soco)", "event": "UFC 300", "date": "2024-04-13", "round": 5, "time": "4:59"},
+        {"result": "W", "opponent": "Jung Chan-sung", "method": "KO (soco)", "event": "UFC Fight Night: Holloway vs. The Korean Zombie", "date": "2023-08-26", "round": 3, "time": "0:23"},
+        {"result": "W", "opponent": "Arnold Allen", "method": "Decisão (unânime)", "event": "UFC on ESPN: Holloway vs. Allen", "date": "2023-04-15", "round": 5, "time": "5:00"},
+        {"result": "L", "opponent": "Alexander Volkanovski", "method": "Decisão (unânime)", "event": "UFC 276", "date": "2022-07-02", "round": 5, "time": "5:00"},
+        {"result": "W", "opponent": "Yair Rodríguez", "method": "Decisão (unânime)", "event": "UFC Fight Night: Holloway vs. Rodríguez", "date": "2021-11-13", "round": 5, "time": "5:00"},
+        {"result": "W", "opponent": "Calvin Kattar", "method": "Decisão (unânime)", "event": "UFC on ABC: Holloway vs. Kattar", "date": "2021-01-16", "round": 5, "time": "5:00"},
+        {"result": "L", "opponent": "Alexander Volkanovski", "method": "Decisão (dividida)", "event": "UFC 251", "date": "2020-07-12", "round": 5, "time": "5:00"},
+        {"result": "L", "opponent": "Alexander Volkanovski", "method": "Decisão (unânime)", "event": "UFC 245", "date": "2019-12-14", "round": 5, "time": "5:00"},
+        {"result": "W", "opponent": "Frankie Edgar", "method": "Decisão (unânime)", "event": "UFC 240", "date": "2019-07-27", "round": 5, "time": "5:00"},
+        {"result": "L", "opponent": "Dustin Poirier", "method": "Decisão (unânime)", "event": "UFC 236", "date": "2019-04-13", "round": 5, "time": "5:00"},
+        {"result": "W", "opponent": "Brian Ortega", "method": "TKO (interrupção médica)", "event": "UFC 231", "date": "2018-12-08", "round": 4, "time": "5:00"},
+        {"result": "W", "opponent": "José Aldo", "method": "TKO (socos)", "event": "UFC 218", "date": "2017-12-02", "round": 3, "time": "4:51"},
+        {"result": "W", "opponent": "José Aldo", "method": "TKO (socos)", "event": "UFC 212", "date": "2017-06-03", "round": 3, "time": "4:13"},
+        {"result": "W", "opponent": "Anthony Pettis", "method": "TKO (chute no corpo e socos)", "event": "UFC 206", "date": "2016-12-10", "round": 3, "time": "4:50"},
+        {"result": "W", "opponent": "Ricardo Lamas", "method": "Decisão (unânime)", "event": "UFC 199", "date": "2016-06-04", "round": 3, "time": "5:00"},
+        {"result": "W", "opponent": "Jeremy Stephens", "method": "Decisão (unânime)", "event": "UFC 194", "date": "2015-12-12", "round": 3, "time": "5:00"},
+        {"result": "W", "opponent": "Charles Oliveira", "method": "TKO (lesão no pescoço)", "event": "UFC Fight Night: Holloway vs. Oliveira", "date": "2015-08-23", "round": 1, "time": "1:39"},
+        {"result": "W", "opponent": "Cub Swanson", "method": "Finalização (guilhotina)", "event": "UFC on Fox: Machida vs. Rockhold", "date": "2015-04-18", "round": 3, "time": "3:58"},
+        {"result": "W", "opponent": "Cole Miller", "method": "Decisão (unânime)", "event": "UFC Fight Night: Henderson vs. Thatch", "date": "2015-02-14", "round": 3, "time": "5:00"},
+        {"result": "W", "opponent": "Akira Corassani", "method": "KO (socos)", "event": "UFC Fight Night: Nelson vs. Story", "date": "2014-10-04", "round": 1, "time": "3:11"},
+        {"result": "W", "opponent": "Clay Collard", "method": "TKO (socos)", "event": "UFC Fight Night: Henderson vs. dos Anjos", "date": "2014-08-23", "round": 3, "time": "3:47"},
+        {"result": "W", "opponent": "Andre Fili", "method": "Finalização (guilhotina)", "event": "UFC 172", "date": "2014-04-26", "round": 3, "time": "3:39"},
+        {"result": "W", "opponent": "Will Chope", "method": "TKO (socos)", "event": "UFC Fight Night: Saffiedine vs. Lim", "date": "2014-01-04", "round": 2, "time": "2:27"},
+        {"result": "L", "opponent": "Conor McGregor", "method": "Decisão (unânime)", "event": "UFC Fight Night: Shogun vs. Sonnen", "date": "2013-08-17", "round": 3, "time": "5:00"},
+        {"result": "L", "opponent": "Dennis Bermudez", "method": "Decisão (dividida)", "event": "UFC 160", "date": "2013-05-25", "round": 3, "time": "5:00"},
+        {"result": "W", "opponent": "Leonard Garcia", "method": "Decisão (dividida)", "event": "UFC 155", "date": "2012-12-29", "round": 3, "time": "5:00"},
+        {"result": "W", "opponent": "Justin Lawrence", "method": "TKO (socos)", "event": "UFC 150", "date": "2012-08-11", "round": 2, "time": "4:49"},
+        {"result": "W", "opponent": "Pat Schilling", "method": "Decisão (unânime)", "event": "The Ultimate Fighter: Live Finale", "date": "2012-06-01", "round": 3, "time": "5:00"},
+        {"result": "L", "opponent": "Dustin Poirier", "method": "Finalização (triângulo com chave de braço)", "event": "UFC 143", "date": "2012-02-04", "round": 1, "time": "3:23"},
+        {"result": "W", "opponent": "Eddie Rincon", "method": "Decisão (unânime)", "event": "UIC 4: War on the Valley Isle", "date": "2011-07-01", "round": 3, "time": "5:00"},
+        {"result": "W", "opponent": "Harris Sarmiento", "method": "Decisão (dividida)", "event": "X-1 World Events 40", "date": "2011-03-12", "round": 5, "time": "5:00"},
+        {"result": "W", "opponent": "Bryson Kamaka", "method": "KO (socos)", "event": "X-1 World Events 37", "date": "2010-11-06", "round": 1, "time": "3:09"},
+        {"result": "W", "opponent": "Duke Saragosa", "method": "Decisão (unânime)", "event": "X-1 World Events 36", "date": "2010-09-11", "round": 3, "time": "5:00"}
+      ],
+      "ufc_stats": {
+        "slpm": 6.92, "str_acc": 0.48, "sapm": 4.60, "str_def": 0.59,
+        "td_landed": 4, "td_attempted": 15, "td_acc": 0.27, "td_def": 0.81,
+        "sub_avg": 0.28, "kd_avg": 0.34, "avg_fight_time": "16:11",
+        "sig_by_position": {"standing": 3252, "clinch": 246, "ground": 195},
+        "sig_by_target": {"head": 2389, "body": 899, "leg": 405}
+      },
+      "attributes": {
+        "boxing": 93, "kicking": 82, "clinch_striking": 78, "power": 78, "hand_speed": 86,
+        "accuracy": 87, "head_movement": 80, "footwork": 88, "volume": 99, "counter": 82,
+        "wrestling": 55, "takedown_def": 82, "clinch_control": 74, "top_control": 70,
+        "bottom_game": 78, "sub_offense": 66, "sub_defense": 86, "ground_strikes": 72,
+        "cardio": 99, "chin": 96, "body_toughness": 90, "leg_toughness": 86, "recovery": 94, "strength": 74,
+        "fight_iq": 93, "composure": 96, "aggression": 86, "heart": 99
+      },
+      "style": {
+        "preferred_range": 1,
+        "pressure": 0.60,
+        "counter_tendency": 0.45,
+        "stance_switching": 0.25,
+        "grapple_intent": 0.004,
+        "combo_length": 2.7,
+        "strike_mix": {"jab": 30, "cross": 18, "hook": 12, "uppercut": 6, "overhand": 3,
+                        "calf_kick": 4, "leg_kick": 7, "body_kick": 8, "head_kick": 2, "teep": 3, "knee": 3, "spinning_kick": 1},
+        "target_mix": {"head": 65, "body": 24, "leg": 11},
+        "ground_top": "gnp",
+        "favorite_subs": ["guillotine"]
+      },
+      "habits": [
+        {"trigger": "jab", "tell": "Holloway volta o jab com a mão baixa", "exploit": "overhand", "bonus": 0.4},
+        {"trigger": "kick", "tell": "Holloway avisa os chutes baixando o ombro", "exploit": "cross", "bonus": 0.35}
+      ]
+    }
+  ]
+}
